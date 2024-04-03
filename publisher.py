@@ -1,11 +1,11 @@
 """Python script to publish data to the MQTT broker."""
 
 import json
-import random
 import time
+import random
 
 import paho.mqtt.client as mqtt
-
+ 
 mqttc = mqtt.Client(
     mqtt.CallbackAPIVersion.VERSION2,
     "lksadhouivhlefhiuvuk7388490fshsdlfviop",
